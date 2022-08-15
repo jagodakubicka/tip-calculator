@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <footer class="footer">
     <p>
       Challenge from
       <a href="https://www.frontendmentor.io/challenges" target="_blank"
@@ -12,7 +12,7 @@
         >Jagoda Kubicka.</a
       >
     </p>
-  </div>
+  </footer>
 </template>
 
 <script>
