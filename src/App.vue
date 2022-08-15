@@ -96,28 +96,17 @@
       </button>
     </div>
   </div>
-  <div class="app-footer">
-    <p>
-      Challenge from
-      <a href="https://www.frontendmentor.io/challenges" target="_blank"
-        >Frontend Mentor.</a
-      >
-    </p>
-    <p>
-      Coded by
-      <a href="https://github.com/jagodakubicka" target="_blank"
-        >Jagoda Kubicka.</a
-      >
-    </p>
-  </div>
+  <AppFooter />
 </template>
 
 <script>
 import Logo from './components/Logo.vue'
+import AppFooter from './components/AppFooter/index.vue'
 
 export default {
   components: {
-    Logo
+    Logo,
+    AppFooter
   },
   data() {
     return {
