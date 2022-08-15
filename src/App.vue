@@ -1,8 +1,5 @@
 <template>
-  <div class="app-logo">
-    <img src="./assets/images/splitter.svg" alt="splitter" />
-  </div>
-
+  <Logo />
   <div class="app-container">
     <div class="app-container__box">
       <h2 class="app-container__title">Bill</h2>
@@ -116,7 +113,12 @@
 </template>
 
 <script>
+import Logo from './components/Logo.vue'
+
 export default {
+  components: {
+    Logo
+  },
   data() {
     return {
       billValue: 0,
@@ -146,8 +148,8 @@ export default {
   computed: {
     TotalPerPersonValue() {
       return (
-        (this.billValue + this.btnValue * this.billValue)
-        / this.peopleNumber
+        (this.billValue + this.btnValue * this.billValue) /
+        this.peopleNumber
       ).toFixed(2)
     },
     tipAmountPerPerson() {
