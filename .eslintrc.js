@@ -12,6 +12,8 @@ module.exports = {
   plugins: ['vue'],
   rules: {
     semi: ['error', 'never'],
-    'comma-dangle': ['error', 'never']
+    'comma-dangle': ['error', 'never'],
+    'linebreak-style': 'off',
+    'vue/multi-word-component-names': 'off'
   }
 }
