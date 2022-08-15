@@ -1,29 +1,15 @@
 # tip-calculator
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Recommended IDE Setup
+![Design preview for the Personal portfolio](./src/assets/images/tip-calculator-preview.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Built with
 
-## Customize configuration
+- Vue
+- SCSS
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+### Author
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+- Website - [Jagoda Kubicka](https://jagoda-kubicka.vercel.app/)
+- Frontend Mentor - [@jagodakubicka](https://www.frontendmentor.io/profile/jagodakubicka)
