@@ -1,6 +1,6 @@
 <template>
   <div class="app-logo">
-    <img src="./assets/images/splitter.svg" alt="splitter" />
+    <img src="../assets/images/splitter.svg" alt="splitter" />
   </div>
 </template>
 
