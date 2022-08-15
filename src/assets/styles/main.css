@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: hsl(185deg, 41%, 84%);
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Space Mono", monospace;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+}
+
+.app-container {
+  margin: 0 auto;
+  background-color: hsl(0deg, 0%, 100%);
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.app-container__box {
+  width: 260px;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.app-container__box--blue {
+  background-color: hsl(183deg, 100%, 15%);
+}
+.app-container__alertMessage {
+  font-size: 14px;
+  color: rgb(199, 22, 22);
+}
+.app-container input {
+  border: none;
+  background: transparent;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  color: hsl(183deg, 100%, 15%);
+  text-align: end;
+}
+.app-container__title {
+  color: hsl(186deg, 14%, 43%);
+  font-size: 16px;
+}
+.app-container__billValue {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(189deg, 41%, 97%);
+  padding: 10px;
+}
+.app-container__tipValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 30px 0;
+}
+.app-container__tipBtn {
+  background-color: hsl(183deg, 100%, 15%);
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Space Mono", monospace;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 80px;
+  cursor: pointer;
+}
+.app-container__tipBtn:hover {
+  color: hsl(183deg, 100%, 15%);
+  background-color: hsl(185deg, 41%, 84%);
+}
+.app-container__tipBtn:active {
+  color: hsl(183deg, 100%, 15%);
+  background-color: hsl(185deg, 41%, 84%);
+}
+.app-container__tipBtn:focus {
+  color: hsl(183deg, 100%, 15%);
+  background-color: hsl(185deg, 41%, 84%);
+}
+.app-container__personValue {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(189deg, 41%, 97%);
+  padding: 10px;
+}
+.app-container__tipAmount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.app-container__tipAmount p {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 16px;
+}
+.app-container__tipAmount p span {
+  color: hsl(184deg, 14%, 56%);
+  font-size: 12px;
+}
+.app-container__tipAmount h2 {
+  color: hsl(172deg, 67%, 45%);
+  padding: 10px;
+  font-size: 32px;
+}
+.app-container__total {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-container__total p {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 16px;
+}
+.app-container__total p span {
+  color: hsl(184deg, 14%, 56%);
+  font-size: 12px;
+}
+.app-container__total h2 {
+  color: hsl(172deg, 67%, 45%);
+  padding: 10px;
+  font-size: 32px;
+}
+.app-container__resetBtn {
+  margin: 20px;
+  padding: 10px;
+  background-color: hsl(185deg, 41%, 84%);
+  color: hsl(183deg, 100%, 15%);
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.app-container__resetBtn:hover {
+  background-color: hsl(172deg, 67%, 45%);
+}
+
+.app-footer {
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app-footer p {
+  font-size: 12px;
+}
+.app-footer a {
+  font-size: 12px;
+  margin: 0 5px;
+  color: hsl(183deg, 100%, 15%);
+}
+
+/*# sourceMappingURL=style.css.map *//*# sourceMappingURL=main.css.map */
