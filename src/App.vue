@@ -5,39 +5,39 @@ export default {
       billValue: 0,
       peopleNumber: 1,
       btnValue: 0,
-      allertMessage: `Can't be less than 1`,
-    };
+      allertMessage: "Can't be less than 1"
+    }
   },
   methods: {
     clickedButtonValue(event) {
-      this.btnValue = event.target.value;
-      console.log(this.btnValue);
+      this.btnValue = event.target.value
+      console.log(this.btnValue)
     },
     resetData() {
       Object.assign(
         (this.billValue = 0),
         (this.peopleNumber = 1),
         (this.btnValue = 0)
-      );
+      )
     },
     displayAlertMessage() {
       if (this.peopleNumber == 0 || this.peopleNumber < 0) {
-        return this.allertMessage;
+        return this.allertMessage
       }
-    },
+    }
   },
   computed: {
-    TotalPerPersonValue: function () {
+    TotalPerPersonValue() {
       return (
-        (this.billValue + this.btnValue * this.billValue) /
-        this.peopleNumber
-      ).toFixed(2);
+        (this.billValue + this.btnValue * this.billValue)
+        / this.peopleNumber
+      ).toFixed(2)
     },
-    tipAmountPerPerson: function () {
-      return ((this.btnValue * this.billValue) / this.peopleNumber).toFixed(2);
-    },
-  },
-};
+    tipAmountPerPerson() {
+      return ((this.btnValue * this.billValue) / this.peopleNumber).toFixed(2)
+    }
+  }
+}
 </script>
 
 <template>
